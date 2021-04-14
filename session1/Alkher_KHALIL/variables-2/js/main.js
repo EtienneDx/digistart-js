@@ -11,18 +11,17 @@ var age;
 // votre choix. N'oubliez pas les guillemets ""
 // car c'est du texte !
 color = "black";
-age = "25",
-console.log(color);
-console.log(age);
+
 
 // TODO: ÉTAPE 3
 // Assigner à la variable age votre âge. Ne mettez
 // pas de guillemets "" car c'est un nombre.
-
+age = 25;
 // TODO: ÉTAPE 4
 // Afficher la valeur de ces deux variables
 // dans la console du navigateur.
-
+console.log(color);
+console.log(age);
 // TODO: ÉTAPE 5
 // Remplacer la valeur de la variable color par une autre couleur.
 

@@ -1,4 +1,4 @@
-<console.log('Bienvenue dans votre premier exercice sur JavaScript !');
+console.log('Bienvenue dans votre premier exercice sur JavaScript !');
 
 // TODO: ÉTAPE 1
 // Afficher dans la console le mois actuel
