@@ -31,7 +31,7 @@ console.log(axel.length); // 5
 // TODO: ÉTAPE 1
 // Écrire une nouvelle variable du nom de votre choix, et de valeur de type String.
 
-maVar = "booooou";
+var maVar = "booooou";
 
 
 // TODO: ÉTAPE 2

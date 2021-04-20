@@ -69,7 +69,8 @@ myNumber = "treize";
 // TODO: ÉTAPE 4
 // Afficher dans la console le type de myNumber.
 
-console.log(typeof myNumber);
+console.log(typeof myNumber); 
+
 
 
 

@@ -41,9 +41,9 @@ sayHelloName("khalil");
 // TODO: ÉTAPE 1
 // Créer une fonction addTwo qui prend en paramètre un nombre et qui
 // retourne ce nombre + 2
-function addTwo(nombre){
+function addTwo(number){
     
-    return nombre + 2;
+    return number + 2;
 
 }
 
@@ -53,6 +53,7 @@ function addTwo(nombre){
 // L'exécuter avec le paramètre de votre choix.
 var a = addTwo(5);
 console.log(a);
+console.log(addTwo(15));
 
 
 
@@ -61,13 +62,17 @@ console.log(a);
 // Créer une fonction displaySum qui prend en paramètre deux nombres entiers
 // et qui affiche la somme de ces deux nombres dans la console.
 function displaySum(a, b){
-    console.log()
+    console.log(a + b)
 }
 
 
 
 // TODO: ÉTAPE 2
 // L'exécuter avec le paramètre de votre choix.
+displaySum(3, 5);
 
 
 
+var myString = "je ne comprends pas ";
+
+console.log(myString.length);
