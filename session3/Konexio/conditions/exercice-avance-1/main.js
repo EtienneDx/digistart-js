@@ -22,7 +22,17 @@ function selectChange() {
 
 
   /* MON CODE EN DESSOUS */
-
+  if(color == "bleu") {
+    // mettre le fond en bleu
+    document.body.style.backgroundColor = "blue";
+    document.getElementById("monH1").style.color = "white";
+  } else if(color == "vert") { 
+    document.body.style.backgroundColor = "green";
+    document.getElementById("monH1").style.color = "white";
+  } else { 
+    document.body.style.backgroundColor = "red";
+    document.getElementById("monH1").style.color = "black";
+  }
   /* MON CODE AU DESSUS */
 
 };

@@ -1,4 +1,4 @@
-/* Exercice 2 - Indicateur de longueur d'un mot de passe */
+'/* Exercice 2 - Indicateur de longueur d'un mot de passe */
 
 // Instructions:
 // Écrire le code pour changer la couleur de l'input en fonction de la
@@ -27,7 +27,9 @@ function passwordMeter(value) {
   // 8 à 20     |   vert
 
   /* MON CODE EN DESSOUS */
-
+  if(passwordLength <= 4) { 
+    document.getElementById('password-input').style.backgroundColor = "red";
+  }
 
   /* MON CODE AU DESSUS */
 }

@@ -22,10 +22,13 @@ function selectChange() {
   /* MON CODE EN DESSOUS */
   if (color == 'bleu') {
     document.body.style.backgroundColor = 'blue';
+    document.h1.style.backgroundColor = 'red';
   } else if (color == 'rouge') {
     document.body.style.backgroundColor = 'red';
+    document.h1.style.backgroundColor = 'green';
   } else {
     document.body.style.backgroundColor = 'green';
+    document.h1.style.backgroundColor = 'blue';
   }
 }
 /* MON CODE AU DESSUS */

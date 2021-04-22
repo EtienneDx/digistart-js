@@ -27,7 +27,11 @@ function passwordMeter(value) {
   // 8 à 20     |   vert
 
   /* MON CODE EN DESSOUS */
-
+ if passwordLenght >= 4 {
+ document.getElementById('password-input').style.backgroundColor = 'red';
+ } else if passwordLength == 8 
+ document.getElementById('password-input').style.backgroundColor = 'orange';
 
   /* MON CODE AU DESSUS */
 }
+.
