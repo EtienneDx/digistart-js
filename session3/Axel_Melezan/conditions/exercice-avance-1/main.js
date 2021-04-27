@@ -22,10 +22,15 @@ function selectChange() {
 
 
   /* MON CODE EN DESSOUS */
-
+if (color == 'rouge'){
+ console.log (documentbosdy.style.backgroundColor = 'red');
+}else if (color == 'bleu'){
+ console.log (document.body.style.backgroundColor = 'blue');
+}else{ 
+  console.log (document.body.style.backgroundColor = 'green') ;}
   /* MON CODE AU DESSUS */
 
-};
+
 
 // ------ TODO 2 ------ 
 // Complétez l'exercice avancé 2 situé dans le dossier "exercice-avance-2" un niveau au dessus

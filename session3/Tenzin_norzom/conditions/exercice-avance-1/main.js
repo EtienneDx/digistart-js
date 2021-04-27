@@ -25,7 +25,12 @@ function selectChange() {
 
   /* MON CODE AU DESSUS */
 
-};
-
+  if(color=="vert"){
+    document.body.style.backgroundColor= "vert";
+  } else if (color="rouge"){
+    document.body.style.backgroundColor= "rouge";
+}else (color="bleu"){
+document.body.style.backgroundColor= "blue";
+}
 // ------ TODO 2 ------ 
 // Complétez l'exercice avancé 2 situé dans le dossier "exercice-avance-2" un niveau au dessus

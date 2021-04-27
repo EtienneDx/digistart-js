@@ -1,4 +1,4 @@
-// ------ TODO 1 ------ 
+// ------ TODO 1 ------
 /* Exercice avancé : Change la couleur de fond du body */
 
 // Cette fonction est executée à chaque fois que l'utilisateur va changer
@@ -6,7 +6,6 @@
 // qu'il va "changer" d'option... c'est pourquoi elle est liée à l'événement onChange
 // dans le code HTML.
 function selectChange() {
-
   // cette variable récupère la valeur de l'option sélectionnée.
   var color = document.getElementById('colors').value;
 
@@ -20,12 +19,19 @@ function selectChange() {
   // Pour changer la couleur de fond du body, il faut utiliser le code ci-dessous:
   // document.body.style.backgroundColor = '...';
 
-
   /* MON CODE EN DESSOUS */
+  if (color == 'bleu') {
+    document.body.style.backgroundColor = 'blue';
+    document.h1.style.backgroundColor = 'red';
+  } else if (color == 'rouge') {
+    document.body.style.backgroundColor = 'red';
+    document.h1.style.backgroundColor = 'green';
+  } else {
+    document.body.style.backgroundColor = 'green';
+    document.h1.style.backgroundColor = 'blue';
+  }
+}
+/* MON CODE AU DESSUS */
 
-  /* MON CODE AU DESSUS */
-
-};
-
-// ------ TODO 2 ------ 
+// ------ TODO 2 ------
 // Complétez l'exercice avancé 2 situé dans le dossier "exercice-avance-2" un niveau au dessus

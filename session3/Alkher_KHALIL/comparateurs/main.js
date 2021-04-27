@@ -5,7 +5,8 @@ console.log('Vous êtes dans les exercices sur les comparateurs');
 // ------ TODO 1 ------ 
 // 1. Créer une variable neighbourAge qui contient l'âge de votre voisin
 
-
+var ;
+b
 
 
 // 2. Créer une variable myAge qui contient votre âge

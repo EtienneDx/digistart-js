@@ -19,13 +19,16 @@ function selectChange() {
 
   // Pour changer la couleur de fond du body, il faut utiliser le code ci-dessous:
   // document.body.style.backgroundColor = '...';
-
-
+if (color == "vert"){
+  document.body.style.backgroundColor = 'red';
+  else
+}
   /* MON CODE EN DESSOUS */
 
   /* MON CODE AU DESSUS */
 
-};
+}
+
 
 // ------ TODO 2 ------ 
 // Complétez l'exercice avancé 2 situé dans le dossier "exercice-avance-2" un niveau au dessus

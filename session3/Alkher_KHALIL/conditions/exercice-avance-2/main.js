@@ -3,7 +3,7 @@
 // Instructions:
 // Écrire le code pour changer la couleur de l'input en fonction de la
 // longueur du mot de passe en utilisant des conditions (if) et des comparateurs (<, >...)
-
+if ()
 // Cette fonction est attachée à un événement "oninput" ça veut dire qu'elle
 // est appelée à chaque fois que l'utilisateur tape dans la balise input
 function passwordMeter(value) {
@@ -19,7 +19,6 @@ function passwordMeter(value) {
 
   // Pour changer la couleur de fond de l'input, utilise le code ci-dessous:
   // document.getElementById('password-input').style.backgroundColor = 'red';
-
   // Les règles sont les suivantes:
   // caractères |   couleur
   // 0 à 4      |   rouge
