@@ -35,7 +35,7 @@ console.log(random);
 // ------ TODO 3 ------ 
 var array = [1, 2, 3, 5, 6, 7, 9, 10];
 
-// 1. Ajouter dans le tableau les éléments 4 et 8 manquants grâce à la méthode splice afin d'obtenir le tableau suivant :
+// 1. Ajouter dans le tableau les éléments 4 et 8 manquants grâce à la méthode - afin d'obtenir le tableau suivant :
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // Documentation de la méthode splice : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/splice
 
@@ -72,7 +72,7 @@ console.log(array);
 
 // 2. Utiliser la méthode join pour regrouper les éléments du tableau en une string.
 
-var arrayJoin = array.join();
+var arrayJoin = array.join("->");
 
 // 3. Afficher le tableau dans la console et vérifier qu'on obtient la string "ABCDE".
 

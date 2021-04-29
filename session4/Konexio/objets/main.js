@@ -38,7 +38,8 @@ console.log(user.age);
 
 
 
-user['city'] = 'Nice'; 
+var nameOfTheProperty = 'city';
+user[nameOfTheProperty] = 'Nice';
 console.log(user);
 
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
@@ -54,11 +55,12 @@ var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 console.log(users[0]);
 console.log(users[1]);
 
+console.log(users[1].name);
+
 console.log(users[1][keys[0]]);
 console.log(users[1][keys[1]]);
 console.log(users[1][keys[2]]);
 
-console.log(users[1].name);
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
@@ -74,9 +76,16 @@ var car = {
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
+car.drive = function() {
+  console.log("Vroom!");
 
+  console.log("Vroom Vroom");
+}
+
+console.log(car);
 
 // 2. Appeller la méthode drive à partir de l'objet car.
+car.drive();
 
 
 
@@ -97,17 +106,22 @@ var library = [
     author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
     read: false
-}];
+  }
+];
 
 // 1. Changer la propriété read du livre titré 'Steve Jobs' à true.
 
-
+library[1].read = true;
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
 
+library.push({author:"1" , title: "Dinosaures" , read: false } );
 
-
+console.log(library);
 // 3. Supprimer le livre de Suzanne Collins du tableau.
+library.splice(2, 1);
+
+console.log(library);
 
 
 
