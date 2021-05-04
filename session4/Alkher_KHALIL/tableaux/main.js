@@ -7,7 +7,7 @@ var prices = [12, 3, 25, 4, 987, 22, 15];
 
 // 1. En accédant aux éléments du tableau, faire en sorte que le chiffre 4 s'affiche dans la console.
 
-
+prices.length
 
 // 2. Afficher dans la console la longueur du tableau "prices".
 

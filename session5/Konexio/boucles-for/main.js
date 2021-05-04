@@ -8,6 +8,7 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 // À l'aide d'une boucle for, afficher dans la console toutes les valeurs
 // contenues dans le tableau `nombres`, une par une.
 var len = nombres.length;
+
 /*for(var i = 0; i < len; i++) {
     console.log(nombres[i]);
 }*/
@@ -49,27 +50,54 @@ var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma', "Etienne"];
 // À l'aide d'une boucle for, afficher dans la console des messages
 // qui saluent chaque prénom contenus dans le tableau `prenoms`.
 // Par exemple : "Bonjour Joseph".
-for ( var i =  0; i <= prenoms.length -1; i++){
-    console.log("bonjour " + prenoms[i]);
-}
+//for ( var i =  0; i <= prenoms.length -1; i++){
+//    console.log(prenoms[i]);
+//}
 
 // TODO: ÉTAPE 7
 // Avec une autre boucle for, afficher dans la console uniquement
 // le premier prénom contenant plus de 4 lettres.
+
+for (var i =  0; i <= prenoms.length -1; i++){
+    if (prenoms[i].length > 4) {
+        console.log(prenoms[i]);
+    }
+}
 
 // TODO: ÉTAPE 8
 // Avec une autre boucle for, construire une nouvelle chaîne de
 // caractères (string) qui contiendra tous les prénoms séparés par
 // une virgule. Afficher cette nouvelle chaîne de caractères dans
 // la console.
+console.log(prenoms.join());
+
+var nameList = "";
+
+for (var i =  0; i <= prenoms.length -1; i++){
+    nameList = nameList + prenoms[i] + ",";
+}
+console.log(nameList);
 
 var a = [12, 47, 5, 450, 98, 100, 54, 2, 87, 9999];
 var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
+
+var c = [];
 
 // TODO: ÉTAPE 9
 // À l'aide d'une boucle for, parcourir les deux tableaux `a` et `b`,
 // et pour chaque indice, placer la valeur la plus petite dans un
 // nouveau tableau.
+
+for (var i =  0; i <= prenoms.length -1; i++){
+    if (a[i] <= b[i]){
+        c.push(a[i]);
+        console.log(a[i]);
+    } else {
+        c.push(b[i]);
+        console.log(b[i]);
+    }
+}
+console.log(c);
 
 // TODO: ÉTAPE 10
 // Avec une autre boucle for, additionner les valeurs de `a` ayant un
@@ -77,3 +105,14 @@ var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 // Placer ces résultats d'addition dans un nouveau tableau à afficher
 // dans la console.
 // Par exemple: a[0] + b[1], a[2] + b[3], etc.
+
+c = [];
+
+for (var i =  0; i <= prenoms.length -1; i++){
+    if (i%2) {
+        console.log(i + "est impair");
+    }  
+    else {
+        console.log(a[i] + b[i+1]);
+    }
+}

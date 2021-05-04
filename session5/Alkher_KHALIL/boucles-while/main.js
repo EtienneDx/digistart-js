@@ -9,10 +9,10 @@ console.log('Vous êtes dans les exercices sur les boucles while');
 // TODO: ÉTAPE 2
 // Avec une autre boucle while, afficher les mêmes nombres dans la
 // console, mais dans l'ordre inverse.
-
+var i = 0;
 var nombres = [45, 2, 89, 12, 44, 29, 11, 3];
 
-// TODO: ÉTAPE 3
+// TODO: ÉTAPE  
 // À l'aide d'une boucle while, afficher les valeurs du tableau `nombres`
 // dans la console jusqu'à la valeur égale à 29.
 
@@ -25,11 +25,20 @@ var prenoms = ['Ali', 'Nora', 'Jean', 'Carole', 'Ibrahim', 'Joseph'];
 // TODO: ÉTAPE 5
 // À l'aide d'une boucle while, afficher les valeurs du tableau `prenoms`
 // tant que leur longueur ne dépasse pas 5 caractères.
-
+while( prenoms[i].length){
+    console.log(prenoms[i]);
+    i++;
+}
 // TODO: ÉTAPE 6
 // Avec une autre boucle while, afficher les valeurs du tableau `prenoms`
 // tant qu'elles contiennent la lettre "a" ou "A".
-
+i = 0;
+//while(prenoms[I]){
+    if(prenoms[I].includes("a") || prenoms[i].includes("A")){
+        console.log(prenoms[i]);
+        i++;
+    }
+}
 // TODO: ÉTAPE 7
 // Avec une autre boucle while, utiliser la méthode pop() sur le tableau
 // `prenoms` pour retirer une valeur du tableau et l'afficher dans la

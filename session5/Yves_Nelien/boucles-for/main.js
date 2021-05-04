@@ -50,6 +50,13 @@ var b = [3, 76, 1002, 31, 9, 340, 420, 90, -12, 1];
 // À l'aide d'une boucle for, parcourir les deux tableaux `a` et `b`,
 // et pour chaque indice, placer la valeur la plus petite dans un
 // nouveau tableau.
+for (var i =  0; i <= prenoms.length -1; i++){
+    if (a[i] > b[i]) {
+        console.log (b[i]);
+    } else {
+        console.log (a[i]);
+    }
+
 
 // TODO: ÉTAPE 10
 // Avec une autre boucle for, additionner les valeurs de `a` ayant un

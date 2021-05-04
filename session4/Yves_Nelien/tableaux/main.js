@@ -7,17 +7,16 @@ var prices = [12, 3, 25, 4, 987, 22, 15];
 
 // 1. En accédant aux éléments du tableau, faire en sorte que le chiffre 4 s'affiche dans la console.
 
-console.log(price);
-
-console.log (price{3});
+console.log(prices);
+console.log(prices[4]);
 
 // 2. Afficher dans la console la longueur du tableau "prices".
 
-
+console.log(prices.length);
 
 // 3. Ajouter un prix au tableau et afficher le tableau dans la console.
-
-
+prices.push(42);
+console.log(prices);
 
 
 // ------ TODO 2 ------ 
