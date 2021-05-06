@@ -6,7 +6,7 @@ console.log("Vous êtes dans l'exercice 2 sur les événements");
 // Créez une variable récupérant l'élément button du HTML.
 
 
-
+var button = document.getElementsByTagName( "button"); 
 
 
 // ------ TODO 2 ------
@@ -14,7 +14,7 @@ console.log("Vous êtes dans l'exercice 2 sur les événements");
 // Elle devra afficher dans la console "Le bouton a été cliqué",
 // ainsi qu'une alerte "Click !".
 
-
+function
 
 
 // ------ TODO 3 ------
