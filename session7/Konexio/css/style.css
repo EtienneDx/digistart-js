@@ -53,16 +53,17 @@ button {
 
 #red {
   top : 400px;
+  transition: left 0.1s;
 }
 
 #yellow {
   top : 560px;
+  transition: left 0.1s;
 }
 
 img {
   width: 200px;
 }
-
 .animation {
   animation : 2s bipbipruns;
 }

@@ -38,6 +38,8 @@ function go() {
 document.addEventListener("keydown", onKeyDown);
 
 
+var leftRed = 0;
+var leftYellow = 0;
 
 // Nous allons maintenant préparer la fonction `onKeyDown()`,
 // qui sera exécutée par le TODO 4.
@@ -57,8 +59,8 @@ function onKeyDown(event) {
   // Je crée 2 variables `leftRed` et `leftYellow`, qui sont
   // les positions des deux personnages.
   // Pour connaître leur positiion, j'utilise leur propriété CSS `left`.
-  var leftRed = window.getComputedStyle(redCoyote).getPropertyValue("left");
-  var leftYellow = window.getComputedStyle(yellowCoyote).getPropertyValue("left");
+  //var leftRed = window.getComputedStyle(redCoyote).getPropertyValue("left");
+  //var leftYellow = window.getComputedStyle(yellowCoyote).getPropertyValue("left");
 
 
 
@@ -72,15 +74,27 @@ function onKeyDown(event) {
 
   if (event.keyCode == 39){
     redCoyote.style.left = parseInt(leftRed) + 10 + "px";
+    leftRed += 10;
   }
+
+  if(event.keyCode == 37){
+    redCoyote.style.left = parseInt(leftRed) - 10 + "px";
+    leftRed -= 10;
+  
+  }
+
   // Sinon, si le keyCode de mon event vaut 90,
   // alors j'assigne la propriété "left" de "redCoyote" à leftRed + 10px.
   
   if (event.keyCode == 90){
     yellowCoyote.style.left = parseInt(leftYellow) + 10 + "px";
+    leftYellow += 10;
   }
 
-
+  if (event.keyCode == 83){
+    yellowCoyote.style.left = parseInt(leftYellow) - 10 + "px";
+    leftYellow -= 10;
+  }
 
   // ---TODO--- 5-C
   // Traduire ici ce pseudo code :
